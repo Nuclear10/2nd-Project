@@ -1,0 +1,78 @@
+*{
+    background-color: #303030;
+}
+header img{
+    height: auto;
+    width: 30px;
+    position: absolute;
+    right: 40%;
+    top: 3%;
+    background: transparent;
+}
+.container .left .mid-pic{
+    width: 25%;
+    position: absolute;
+    right: 60%;
+    top: 20%;
+    background: transparent;
+}
+.container .left .mid-pic1{
+    width: 10%;
+    position: absolute;
+    right: 67.4%;
+    top: 35%;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+footer img.pin{
+    width: 1.5%;
+    top: 83%;
+    left: 2%;
+    position: absolute;
+}
+footer p{
+    width: 13%;
+    top: 80.7%;
+    left: 4%;
+    font-size: 140%;
+    font-style:unset;
+    color: white;
+    position: absolute;
+}
+.container .bottom{
+    width: 40%;
+    top: 89%;
+    font-size: 150%;
+    left: 1.5%;
+    color: white;
+    position: absolute;
+}
+.container .bottom .mic{
+    width: 5.5%;
+    top: 16%;
+    left: 98%;
+    position: absolute;
+    background: transparent;
+}
+.container .bottom .video{
+    width: 8.2%;
+    top: 1.5%;
+    left: 105%;
+    position: absolute;
+    background: transparent;
+}
+.container .bottom .captions{
+    width: 6.5%;
+    top: 11.9%;
+    left: 114%;
+    position: absolute;
+    background: transparent;
+}
+.container .bottom .ss{
+    width: 6.8%;
+    top: 11.9%;
+    left: 122.2%;
+    position: absolute;
+    background: transparent;
+}
