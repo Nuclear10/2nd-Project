@@ -1,34 +1,31 @@
 *{
     background-color: #303030;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 header img{
     height: auto;
     width: 30px;
     position: absolute;
-    right: 40%;
+    right: 32%;
     top: 3%;
     background: transparent;
-}
-.container .left .mid-pic{
-    width: 25%;
-    position: absolute;
-    right: 60%;
-    top: 20%;
-    background: transparent;
+    cursor: pointer;
 }
 .container .left .mid-pic1{
-    width: 10%;
+    width: 13%;
     position: absolute;
-    right: 67.4%;
-    top: 35%;
-    outline: none;
-    border: none;
-    background: transparent;
+    right: 57%;
+    top: 26%;
+    border-radius: 100%;
+    border: 90px solid rgb(78, 78, 78);
+
 }
-footer img.pin{
-    width: 1.5%;
+#pin{
     top: 83%;
+    font-size: 28px;
+    color: white;
     left: 2%;
+    cursor: pointer;
     position: absolute;
 }
 footer p{
@@ -48,31 +45,165 @@ footer p{
     color: white;
     position: absolute;
 }
-.container .bottom .mic{
-    width: 5.5%;
-    top: 16%;
-    left: 98%;
+#mic{
+    width: 3.5%;
+    top: 18%;
+    left: 97%;
+    font-size: 24px;
+    text-align: center;
+    color: white;
     position: absolute;
+    cursor: pointer;
+    border-radius: 100%;
+    background:rgb(53, 53, 53);
+    border: 18px solid rgb(53, 53, 53);
+}
+
+#video{
+    width: 3.5%;
+    top: 18%;
+    text-align: center;
+    font-size: 24px;
+    left: 107%;
+    color: red;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 100%;
+    background:rgb(53, 53, 53);
+    border: 18px solid rgb(53, 53, 53);
+}
+#captions{
+    width: 3.5%;
+    top: 18%;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    left: 117%;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 100%;
+    background:rgb(53, 53, 53);
+    border: 17px solid rgb(53, 53, 53);
+}
+#ss{
+    width: 3.5%;
+    top: 18%;
+    text-align: center;
+    color: white;
+    font-size: 21px;
+    left: 126%;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 100%;
+    background:rgb(53, 53, 53);
+    border: 20px solid rgb(53, 53, 53);
+}
+#options{
+    width: 3.5%;
+    top: 20%;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    left: 136%;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 100%;
+    background:rgb(53, 53, 53);
+    border: 19px solid rgb(53, 53, 53);
+}
+#end-call{
+    width: 3.5%;
+    position: absolute;
+    top: 20%;
+    left: 146%;
+    cursor: pointer;
+    border-radius: 100%;
+    background: red;
+    border: 18px solid red;
+}
+
+#info{
+    top: 95%;
+    color: white;
+    position: absolute;
+    font-size: 22px;
+    right: 15%;
+    background: transparent;
+    float: right;
+    cursor: pointer;
+}
+#user{
+    top: 95%;
+    color: white;
+    position: absolute;
+    font-size: 23px;
+    color: slateblue;
+    right: 10%;
+    background: transparent;
+    float: right;
+    cursor: pointer;
+}
+#comment{
+    top: 95.2%;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    font-size: 22px;
+    color: white;
+    right: 5.8%;
+    background: transparent;
+    float: right;
+}
+#shapes{
+    color: white;
+    cursor: pointer;
+    top: 95%;
+    position: absolute;
+    font-size: 24px;
+    color: white;
+    right: 2%;
+    background: transparent;
+    float: right;
+}
+.sahib {   
+    position: absolute;
+    left: 120%;
+    width: 110px;
+    bottom: 150px;
+    border-radius: 10%;
+    background:rgb(63, 63, 63);
+    border: 98px solid rgb(63, 63, 63);
+    border-width: 40px 100px;
+    
+}
+p{
     background: transparent;
 }
-.container .bottom .video{
-    width: 8.2%;
-    top: 1.5%;
-    left: 105%;
-    position: absolute;
+.text{
+    left: 123%;
+    position: relative;
+    bottom: 145px;
+    font-size: 24px;
     background: transparent;
 }
-.container .bottom .captions{
-    width: 6.5%;
-    top: 11.9%;
-    left: 114%;
-    position: absolute;
-    background: transparent;
+.right{
+    float: right;
+    position: relative;
+    border-radius: 2%;
+    border: 88px solid white;
+    border-width: 435px 270px;
 }
-.container .bottom .ss{
-    width: 6.8%;
-    top: 11.9%;
-    left: 122.2%;
-    position: absolute;
-    background: transparent;
+.right-down{
+    float: right;
+    position: relative;
+    color: white;
+    top: 870px;
+    left: 370px;
+    text-align: center;
+    margin: -10px;
+    margin-top: 10px;
+    width: 30px;
+    font-size: 11px;
+    border-radius: 50%;
+    background: rgb(63, 63, 63);
 }
