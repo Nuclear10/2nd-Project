@@ -123,56 +123,57 @@ footer p{
 }
 
 #info{
-    top: 95%;
+    top: 94%;
     color: white;
     position: absolute;
-    font-size: 22px;
+    font-size: 30px;
     right: 15%;
     background: transparent;
     float: right;
     cursor: pointer;
 }
 #user{
-    top: 95%;
+    top: 94%;
     color: white;
     position: absolute;
-    font-size: 23px;
+    font-size: 28px;
     color: slateblue;
-    right: 10%;
+    right: 11%;
     background: transparent;
     float: right;
     cursor: pointer;
 }
 #comment{
-    top: 95.2%;
+    top: 94.4%;
     color: white;
     cursor: pointer;
     position: absolute;
-    font-size: 22px;
+    font-size: 27px;
     color: white;
-    right: 5.8%;
+    right: 7%;
     background: transparent;
     float: right;
 }
 #shapes{
     color: white;
     cursor: pointer;
-    top: 95%;
+    top: 94.2%;
     position: absolute;
-    font-size: 24px;
+    font-size: 27px;
+    width: 30px;
     color: white;
-    right: 2%;
+    right: 3%;
     background: transparent;
     float: right;
 }
 .sahib {   
     position: absolute;
     left: 120%;
-    width: 110px;
+    width: 90px;
     bottom: 150px;
-    border-radius: 10%;
+    border-radius: 4%;
     background:rgb(63, 63, 63);
-    border: 98px solid rgb(63, 63, 63);
+    border: 90px solid rgb(63, 63, 63);
     border-width: 40px 100px;
     
 }
@@ -189,21 +190,150 @@ p{
 .right{
     float: right;
     position: relative;
+    background: white;
     border-radius: 2%;
     border: 88px solid white;
-    border-width: 435px 270px;
+    border-width: 375px 250px;
 }
 .right-down{
     float: right;
     position: relative;
     color: white;
     top: 870px;
-    left: 370px;
+    left: 395px;
     text-align: center;
-    margin: -10px;
+    margin: 3px;
     margin-top: 10px;
-    width: 30px;
-    font-size: 11px;
-    border-radius: 50%;
+    width: 20px;
+    height: 25px;
+    font-size: 10px;
+    border-radius: 100%;
     background: rgb(63, 63, 63);
+}
+.right-text{
+    position: relative;
+    background: transparent;
+    top: -350px;
+    color: rgb(78, 78, 78);
+    right: 250%;
+    font-size: 27px;
+}
+#close{
+    background: transparent;
+    position: relative;
+    left: 550%;
+    font-size: 25px;
+    color: rgb(78, 78, 78);
+    top: -56px;
+    cursor: pointer;
+}
+#add{
+    background: transparent;
+    position: relative;
+    font-size: 25px;
+    right: 40%;
+    cursor: pointer;
+    top: 10px;
+}
+.add-text{
+    background: transparent;
+    font-size: 20px;
+    position: absolute;
+    right: -70%;
+    top: 60%;
+}
+.in-call{
+    background: transparent;
+    position: absolute;
+    font-size: 20px;
+    left: -10%;
+    top: 120%;
+}
+.small-pic1{
+    background: transparent;
+    position: absolute;
+    top: 190%;
+    left: -10px;
+    width: 40px;
+}
+.pic1{
+    background: transparent;
+    position: absolute;
+    font-size: 19px;
+    top: 180%;
+    right: -180%;
+}
+.small-pic2{
+    background: transparent;
+    position: absolute;
+    width: 40px;
+    left: -10px;
+    top: 270%;
+}
+.pic2{
+    background: transparent;
+    position: absolute;
+    font-size: 19px;
+    top: 260%;
+    right: -110%;
+}
+.small-pic3{
+    background: transparent;
+    position: absolute;
+    width: 40px;
+    left: -10px;
+    top: 350%;
+}
+.pic3{
+    background: transparent;
+    position: absolute;
+    font-size: 19px;
+    top: 339%;
+    right: -120%;
+}
+.logo1{
+    background: transparent;
+    position: absolute;
+    width: 25px;
+    right: -110%;
+    top: 30%;
+}
+#pin1{
+    background: transparent;
+    position: absolute;
+    color: rgb(78, 78, 78);
+    top: 36%;
+    right: -140%;
+    font-size: 22px;
+    cursor: pointer;
+}
+.logo2{
+    background: transparent;
+    position: absolute;
+    width: 25px;
+    right: -212%;
+    top: 30%;
+}
+#options1{
+    background: transparent;
+    position: absolute;
+    right: -252%;
+    top: 30%;
+    font-size: 23px;
+    cursor: pointer;
+}
+.logo3{
+    background: transparent;
+    position: absolute;
+    width: 26px;
+    right: -195%;
+    top: 30%;
+}
+#options2{
+    background: transparent;
+    position: absolute;
+    right: -232%;
+    top: 30%;
+    font-size: 23px;
+    cursor: pointer;
 }
